@@ -1,12 +1,87 @@
-# React + Vite
+## 📚 BookTracker — React Book Library App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo:** [https://vocal-conkies-0c523f.netlify.app/](https://vocal-conkies-0c523f.netlify.app/)
 
-Currently, two official plugins are available:
+### ✨ Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**BookTracker** is a sleek and user-friendly React-based application that helps you keep track of books you’ve read and books you wish to read. It provides sorting features, categorized tabs, and a clean, modern UI to enhance your reading management experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎯 Features
+
+* ✅ Track books you've read
+* 🌟 Manage a wishlist of books to read later
+* 📊 Sort books by number of pages or rating
+* 🎨 Clean and responsive UI using Tailwind CSS
+* 📂 Persistent data storage using LocalStorage
+* 🔄 Tab-based interface for easy navigation
+
+---
+
+
+
+### 🛠️ Tech Stack
+
+* **React.js**
+* **React Router**
+* **Tailwind CSS**
+* **React Icons**
+* **LocalStorage**
+
+---
+
+### 🚀 Getting Started
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/booktracker.git
+cd booktracker
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+### 📁 Folder Structure
+
+```
+src/
+├── components/
+│   ├── Book/
+│   ├── ReadList/
+│   ├── About/
+│   └── ...
+├── utility/
+│   └── addToDB.js
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+### 📦 LocalStorage Keys Used
+
+* `read-list`
+* `wish-list`
+
+These keys are used to persist your selected books across sessions.
+
+---
+
+### 🙇‍♂️ Author
+
+**Iftikar Rahaman**
+Undergraduate Student, C.S.E.
+Brac University
+
+---
+
+
