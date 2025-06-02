@@ -36,7 +36,7 @@
 ```bash
 # 1. Clone the repository
 git clone https://github.com/your-username/booktracker.git
-cd booktracker
+cd boipooka
 
 # 2. Install dependencies
 npm install
